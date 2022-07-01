@@ -1,5 +1,6 @@
 #include <studio.h>
 
+
 int main(void)
 {
 printf("size of char: %d byte(s)\n", sizeof(char));
