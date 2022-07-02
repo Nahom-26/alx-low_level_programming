@@ -17,11 +17,11 @@ if (n > 5)
 }
 if (n == 0 )
 {
-	printf("0")
+	printf("0");
 }
 if (n < 6 && n !=0)
 {
-        printf ("less than six not zero")
+        printf ("less than six not zero");
 }
 
 printf("\n");
