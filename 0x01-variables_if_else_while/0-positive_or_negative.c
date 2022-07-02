@@ -4,7 +4,7 @@
 /* main prints numbers */
 
 /* betty style doc for main numbers */
-int main(void)
+int main (void)
 {
 int n;
 srand(time(0));
