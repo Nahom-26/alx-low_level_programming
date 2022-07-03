@@ -6,10 +6,15 @@
  **/
 int main(void)
 {
-	int a = 0;
+	int c;
 
-	for (; a < 10 ; a++)
-		putchar('0' + a);
-	putchar('\n');
+	c = 48;
+
+	while (c <= 57)
+	{
+		putchar (c);
+		c++;
+	}
+	putchar ('\n');
 	return (0);
 }
