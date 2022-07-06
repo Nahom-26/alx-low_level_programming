@@ -1,18 +1,11 @@
 #include "main.h"
 
 /**
- *
  * *times_table - prints multiplication table
- *
- * *
  *
  * *Description: timestable
  *
- * *
- *
  * *Return: void
- *
- * *
  *
  **/
 void times_table(void)
