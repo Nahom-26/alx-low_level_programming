@@ -6,7 +6,7 @@
  * Return: 0 if n is lower, return -1 to indicate an error
  */
 
-int factorial(int n);
+int factorial(int n)
 {
 	if (n < 2 && n > 0)
 		return (1);
