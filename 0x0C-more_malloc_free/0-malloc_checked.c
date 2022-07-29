@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * * malloc_checked - mallocs memory asked, exits with code 98 on failure
+ * malloc_checked - mallocs memory asked, exits with code 98 on failure
  *
- * * @b: memory required
- * * Return: pointer to memory requested
+ * @b: memory required
+ * Return: pointer to memory requested
  */
 
 void *malloc_checked(unsigned int b)
