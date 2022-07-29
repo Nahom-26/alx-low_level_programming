@@ -1,19 +1,20 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * malloc_checked - mallocs memory asked, exits with code 98 on failure
+ *malloc_checked - allocates mem using malloc
  *
- * @b: memory required
- * Return: pointer to memory requested
+ *@b:int param
+ *Return:pointer to allocated mem
+ *
  */
 void *malloc_checked(unsigned int b)
 {
-	void *ptr;
+	void *p;
 
-	ptr = malloc(b);
-	if (ptr == NULL)
+	p = malloc(b);
+	if (p == NULL)
 	{
-		  exit(98);
+		exit(98);
 	}
-	return (ptr);
+	return (p);
 }
