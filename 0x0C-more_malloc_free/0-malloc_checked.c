@@ -8,9 +8,7 @@
  * * Return: pointer to memory requested
  */
 
-
 void *malloc_checked(unsigned int b)
-
 {
 	void *ptr;
 	ptr = malloc(b);
